@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Secondhand Market</title>
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        /* Custom styles for the hero section */
+        .hero {
+            background-color: #8665657f; /* Moderately dark background color */
+        }
+
+        .hero-title {
+            color: white; /* White text color */
+        }
+        
+        .moving-picture {
+            position: relative;
+            margin-top: 50px;
+        }
+
+        .moving-picture img {
+            position: absolute;
+            animation: movePicture linear infinite;
+            animation-duration: 3s;
+            animation-direction: alternate;
+        }
+
+        @keyframes movePicture {
+            from {
+                left: 0;
+            }
+            to {
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero py-5">
+        <div class="container text-center">
+            <h1 class="hero-title">Newly Created Used Market</h1>
+            <p class="hero-material">Second Hand Sale at Home</p>
+            <div class="moving-picture">
+                <img src="moving_picture.gif" alt="Moving Picture">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
